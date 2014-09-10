@@ -1,0 +1,37 @@
+$fontColor:           #002b36
+$lightBackGround:     #fdf6e3
+
+*
+  font-family: 'Source Code Pro'
+  color: $fontColor
+
+body
+  background-color: $lightBackGround
+
+#main_container
+  margin: auto
+  margin-top: 20%
+  width: 400px
+  height: 300px
+
+  header
+    .name
+      border-bottom: 1px solid $fontColor
+      h3
+        font-weight: bold
+        margin-bottom: 3px
+    .email
+      span
+        float: right
+        font-style: italic
+
+  .social_container
+    clear: both
+    margin-top: 70px
+    section.social
+      // width: 400px
+      a
+        margin-left: 20px
+        margin-right: 20px
+      a:first-child
+        margin-left: 0
