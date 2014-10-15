@@ -5,6 +5,9 @@
 body {
   background-color: #fdf6e3; }
 
+.no_decoration {
+  text-decoration: none; }
+
 #main_container {
   margin: auto;
   margin-top: 20%;
